@@ -1,0 +1,20 @@
+# Compile of tb.v was successful.
+# Compile of hex_keypad.v was successful.
+# Compile of row_sgnl.v was successful.
+# Compile of sync.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.tb
+# vsim -gui work.tb 
+# Start time: 17:24:33 on Dec 31,2022
+# Loading work.tb
+# Loading work.hex_keypad
+# Loading work.row_sgnl
+# Loading work.sync
+add wave -position insertpoint sim:/tb/*
+run -all
+# ** Note: $finish    : D:/Github/keypad_scanner/tb.v(59)
+#    Time: 2 us  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at D:/Github/keypad_scanner/tb.v line 59
+# End time: 17:25:03 on Dec 31,2022, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 0
